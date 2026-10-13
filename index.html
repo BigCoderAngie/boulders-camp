@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#c94f1c">
+<title>Boulders Camp — Wolwedans</title>
+<meta name="description" content="Find your quiet among ancient granite boulders in Namibia's NamibRand Nature Reserve. Discover Boulders Camp by Wolwedans and enquire directly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/boulders-sunset.jpg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="curtain" aria-hidden="true"><span>Find your quiet…</span></div>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="#home" aria-label="Wolwedans Boulders Camp, home">
+    <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="26" cy="13" r="6" fill="#f0a43a"/><path d="M2 34c4-9 8-13 13-13 4 0 5 3 8 3 4 0 6-4 10-4 3 0 5 6 5 14z" fill="currentColor"/></svg>
+    <span><b>WOLWEDANS</b><small>BOULDERS CAMP</small></span>
+  </a>
+  <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><i></i><i></i></button>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="#experiences">Experiences</a>
+    <a href="#day">A day here</a>
+    <a href="#stay">The stay</a>
+    <a href="#map">The reserve</a>
+    <a href="#planner">Plan</a>
+    <a class="btn gold" href="#enquire" data-enquire>Enquire direct</a>
+  </nav>
+</header>
+
+<main id="home">
+  <!-- HERO -->
+  <section class="hero" aria-label="Introduction">
+    <div class="slides" id="slides">
+      <div class="slide on" data-name="Golden hour at camp" style="background-image:url('assets/boulders-sunset.jpg')"></div>
+      <div class="slide" data-name="Camp among the boulders" style="background-image:url('assets/aerial-boulders.jpg')"></div>
+      <div class="slide" data-name="The open NamibRand" style="background-image:url('assets/solitude.jpg')"></div>
+      <div class="slide" data-name="Tents in the granite" style="background-image:url('assets/boulders-camp-panorama.jpg')"></div>
+    </div>
+    <div class="hero-inner">
+      <span class="eyebrow fade-up">NamibRand Nature Reserve · Namibia</span>
+      <h1><span class="line"><span>Find your</span></span><span class="line"><span><em>quiet.</em></span></span></h1>
+      <div class="hero-row fade-up">
+        <p>A small, soulful camp hidden among ancient granite boulders in one of Africa's largest private reserves.</p>
+        <div class="slide-ctrl" id="slide-ctrl" aria-label="Choose hero image"></div>
+      </div>
+    </div>
+    <form class="booking fade-up" id="booking" aria-label="Check availability">
+      <label>When<select name="season"><option>September – December</option><option>January – April</option><option>May – August</option><option>I'm flexible</option></select></label>
+      <label>Guests<select name="guests"><option>Two guests</option><option>One guest</option><option>Three or four</option><option>Five or more</option></select></label>
+      <label>Nights<select name="nights"><option>Three nights</option><option>Two nights</option><option>Four nights</option><option>Five or more</option></select></label>
+      <button class="btn" type="submit">Check availability <span class="arrow">→</span></button>
+    </form>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+  <!-- INTRO -->
+  <section class="section wrap" id="place">
+    <div class="intro-grid">
+      <div data-reveal>
+        <span class="eyebrow dot">A place apart</span>
+        <h2 style="margin-top:18px">Where the desert<br>lets you <em>exhale.</em></h2>
+      </div>
+      <div data-reveal style="--d:.15s">
+        <p class="lead">Some places ask you to do more. Boulders invites you to notice more.</p>
+        <p class="body">Deep in the NamibRand, the tents sit in a granite outcrop shaped over millions of years. Follow the light across the mountains, listen as the day goes quiet and give yourself room to be here.</p>
+        <a class="link-arrow" href="#experiences">Explore the experience <span>→</span></a>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat s1" data-reveal><b data-count="220000">0</b><span>hectares of reserve to explore</span></div>
+      <div class="stat s2" data-reveal style="--d:.1s"><b>Gold</b><span>tier International Dark Sky Reserve</span></div>
+      <div class="stat s3" data-reveal style="--d:.2s"><b>Few</b><span>tents, so you have the landscape almost to yourself</span></div>
+    </div>
+    <div class="collage">
+      <figure class="ph big" data-reveal="clip" style="margin:0"><img src="assets/aerial-boulders.jpg" alt="Aerial view of the granite outcrop and Boulders Camp in the sand" loading="lazy"><figcaption>From above · the outcrop</figcaption></figure>
+      <figure class="ph sm" data-reveal="clip" style="margin:0"><img src="assets/room-deck.jpg" alt="Tent deck looking out over the plains" loading="lazy"><figcaption>Your private deck</figcaption></figure>
+      <figure class="ph sm" data-reveal="clip" style="margin:0"><img src="assets/walking.jpg" alt="Guest walking across red dunes" loading="lazy"><figcaption>Morning walks</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- EXPERIENCES -->
+  <section class="section wrap exp" id="experiences">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow dot">The experience</span>
+        <h2>Less itinerary.<br><em>More instinct.</em></h2>
+      </div>
+      <div class="filters" role="group" aria-label="Filter experiences" data-reveal>
+        <button class="chip" aria-pressed="true" data-filter="all">All</button>
+        <button class="chip" aria-pressed="false" data-filter="land">On the land</button>
+        <button class="chip" aria-pressed="false" data-filter="slow">Slow time</button>
+        <button class="chip" aria-pressed="false" data-filter="dark">After dark</button>
+      </div>
+    </div>
+    <div class="bento" id="bento"></div>
+  </section>
+
+  <!-- A DAY AT BOULDERS -->
+  <section class="section wrap day" id="day">
+    <div class="day-grid">
+      <div class="day-visual" id="day-visual" aria-hidden="true">
+        <div class="day-clock"><i></i><span id="day-clock">05:45 · First light</span></div>
+      </div>
+      <div class="day-steps" id="day-steps">
+        <div class="day-intro">
+          <span class="eyebrow dot">A day at Boulders</span>
+          <h2 style="margin-top:18px">Let the light <em>set the pace.</em></h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAY -->
+  <section class="section wrap" id="stay">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow dot">The stay</span>
+        <h2>Canvas, granite<br>&amp; <em style="color:var(--dune)">open sky.</em></h2>
+      </div>
+      <a class="link-arrow" href="#enquire" data-enquire>Ask about availability <span>→</span></a>
+    </div>
+    <div class="stay-grid">
+      <div class="stay-view" data-reveal="clip" id="stay-view">
+        <img class="on" src="assets/boulders-room-interior.jpg" alt="Tent bedroom with linen and patterned cushions" loading="lazy">
+        <img src="assets/room-deck.jpg" alt="Wooden deck in front of a tent, facing the plains" loading="lazy">
+        <img src="assets/fairy-circles.jpg" alt="Camp tents and plunge pool among the boulders" loading="lazy">
+        <div class="tabs" role="tablist" aria-label="Explore the tents">
+          <button class="tab" role="tab" aria-selected="true" data-i="0">The tent</button>
+          <button class="tab" role="tab" aria-selected="false" data-i="1">The deck</button>
+          <button class="tab" role="tab" aria-selected="false" data-i="2">The camp</button>
+        </div>
+      </div>
+      <div class="stay-side">
+        <div class="stay-copy" data-reveal>
+          <span class="eyebrow">Tented suites</span>
+          <h3 id="stay-title">A soft place to land</h3>
+          <p id="stay-text">Crisp linen, canvas walls that let the breeze in, and windows that frame the boulders outside.</p>
+        </div>
+        <ul class="features" data-reveal style="--d:.1s">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg>Solar-powered camp</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 18h18M5 18V9l7-5 7 5v9"/><path d="M10 18v-5h4v5"/></svg>Private deck per tent</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 12c3-3 6 3 9 0s6 3 9 0M3 17c3-3 6 3 9 0s6 3 9 0"/></svg>Plunge pool in the rocks</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4z"/><path d="M19 15l.7 1.8L21.5 17.5l-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg>Stargazing from bed</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section wrap map-sec" id="map">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow dot">The reserve</span>
+        <h2>Your corner of<br><em>the NamibRand.</em></h2>
+      </div>
+      <p class="lead" data-reveal style="margin:0;max-width:30ch;font-size:18px">Tap a place to see what's waiting beyond camp.</p>
+    </div>
+    <div class="map-grid">
+      <div class="map" id="map-canvas" data-reveal="clip">
+        <svg class="terrain" viewBox="0 0 400 300" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <pattern id="fc" width="14" height="12" patternUnits="userSpaceOnUse"><ellipse cx="7" cy="6" rx="3.4" ry="2.8" fill="none" stroke="#c9a06c" stroke-width="1.2"/></pattern>
+            <pattern id="grass" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M2 7l1-3M5 8l1-4" stroke="#b9a066" stroke-width=".9"/></pattern>
+          </defs>
+          <rect width="400" height="300" fill="#ecd2a8"/>
+          <path d="M0 175 C80 150 160 190 250 170 S360 150 400 165 V300 H0z" fill="#e3c393"/>
+          <ellipse cx="125" cy="160" rx="95" ry="40" fill="url(#grass)" opacity=".9"/>
+          <g fill="none" stroke-linecap="round">
+            <path d="M-10 40 C40 20 80 60 140 38 S220 30 240 20" stroke="#d26a33" stroke-width="16" opacity=".75"/>
+            <path d="M-10 75 C30 55 90 95 150 70 S210 60 230 55" stroke="#c9582a" stroke-width="13" opacity=".75"/>
+            <path d="M-10 108 C40 92 90 125 150 104" stroke="#d97a42" stroke-width="10" opacity=".7"/>
+            <path d="M10 20 C60 0 110 30 170 10" stroke="#e08a52" stroke-width="8" opacity=".6"/>
+          </g>
+          <path d="M250 95 L290 40 L318 70 L345 25 L380 72 L400 60 V110 H250z" fill="#9b5a3a"/>
+          <path d="M290 40 L305 95 H260z M345 25 L360 100 H322z" fill="#7a3f28" opacity=".7"/>
+          <path d="M215 175 C205 150 225 140 240 148 C250 132 270 140 268 158 C285 160 285 185 262 190 C250 200 220 196 215 175z" fill="#b0643a"/>
+          <g fill="#c77744"><circle cx="228" cy="158" r="9"/><circle cx="248" cy="150" r="11"/><circle cx="262" cy="170" r="8"/><circle cx="238" cy="178" r="7"/></g>
+          <rect x="105" y="190" width="120" height="70" rx="30" fill="url(#fc)"/>
+          <path d="M232 168 C200 190 170 210 160 216 M232 168 C190 160 140 160 120 156 M232 168 C200 140 140 110 90 90 M232 168 C270 140 300 100 312 72" fill="none" stroke="#7a2e14" stroke-width="1.6" stroke-dasharray="4 5" opacity=".55"/>
+          <rect x="8" y="8" width="384" height="284" rx="18" fill="none" stroke="#7a2e14" stroke-width="1.4" stroke-dasharray="2 6" opacity=".45"/>
+        </svg>
+        <svg class="map-compass" viewBox="0 0 50 50" aria-hidden="true"><circle cx="25" cy="25" r="23" fill="rgba(255,250,243,.7)"/><path d="M25 7l5 18h-10z" fill="currentColor"/><path d="M25 43l-5-18h10z" fill="currentColor" opacity=".35"/><text x="25" y="6" font-size="0" text-anchor="middle">N</text></svg>
+        <span class="map-note">Illustrative · not to scale</span>
+      </div>
+      <article class="place-card" data-reveal style="--d:.1s" aria-live="polite">
+        <figure class="ph" style="margin:0"><img id="place-img" src="assets/aerial-boulders.jpg" alt=""></figure>
+        <div class="place-body" id="place-body">
+          <span class="eyebrow kind" id="place-kind">Your base</span>
+          <h3 id="place-title">Boulders Camp</h3>
+          <p id="place-text"></p>
+          <div class="place-nav"><button class="round" id="place-prev" aria-label="Previous place">←</button><button class="round" id="place-next" aria-label="Next place">→</button></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- REGENERATION -->
+  <section class="section wrap regen" id="regen">
+    <div class="regen-grid">
+      <figure class="ph" data-reveal="clip" style="margin:0"><img src="assets/fairy-circle-camp.jpg" alt="Boulders Camp tents beside a field of fairy circles" loading="lazy"></figure>
+      <div>
+        <div data-reveal>
+          <span class="eyebrow dot">A lighter footprint</span>
+          <h2 style="margin-top:18px">Travel that<br><em>gives back.</em></h2>
+          <p class="lead" style="margin-top:22px">At Wolwedans, every stay helps look after the place that makes it possible.</p>
+        </div>
+        <div class="pillars">
+          <div class="pillar" data-reveal><span class="n">01</span><div><h3>Protecting the reserve</h3><p>Part of each stay supports conservation in the NamibRand, one of Southern Africa's largest private reserves.</p></div></div>
+          <div class="pillar" data-reveal style="--d:.1s"><span class="n">02</span><div><h3>Investing in people</h3><p>The Wolwedans Foundation trains young Namibians for careers in hospitality and conservation.</p></div></div>
+          <div class="pillar" data-reveal style="--d:.2s"><span class="n">03</span><div><h3>Keeping skies dark</h3><p>Low-impact, solar-powered camps protect the night sky and the quiet.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANNER -->
+  <section class="section wrap planner" id="planner">
+    <div class="planner-grid">
+      <div class="controls">
+        <div data-reveal>
+          <span class="eyebrow">Shape your stay</span>
+          <h2 style="margin-top:18px">What would<br>you <em>come for?</em></h2>
+        </div>
+        <div data-reveal>
+          <span class="ctrl-label" id="mood-label">I'm craving</span>
+          <div class="filters" role="group" aria-labelledby="mood-label" id="moods"></div>
+        </div>
+        <div data-reveal>
+          <span class="ctrl-label" id="nights-label">How long</span>
+          <div class="stepper" role="group" aria-labelledby="nights-label">
+            <button id="nights-minus" aria-label="Fewer nights">−</button>
+            <output id="nights-out" aria-live="polite">3 nights</output>
+            <button id="nights-plus" aria-label="More nights">+</button>
+          </div>
+        </div>
+        <p class="mood-line" id="mood-line" data-reveal></p>
+      </div>
+      <div>
+        <div class="itinerary" id="itinerary" aria-live="polite" aria-label="Suggested itinerary"></div>
+        <div class="planner-cta">
+          <button class="btn gold" id="send-plan">Send this plan to the camp <span class="arrow">→</span></button>
+          <small>The team reply personally, with no booking fees or middlemen.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNAL -->
+  <section class="section wrap" id="journal">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow dot">Notes from the desert</span>
+        <h2>Before you <em style="color:var(--dune)">arrive.</em></h2>
+      </div>
+    </div>
+    <div class="notes" id="notes"></div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing wrap" id="enquire">
+    <div class="bg" id="closing-bg"></div>
+    <div class="closing-inner" data-reveal>
+      <span class="eyebrow">Book direct with Wolwedans</span>
+      <h2>Your journey<br>begins <em>here.</em></h2>
+      <p>Talk to the people who know Boulders best. Book direct for personal planning and the most flexible terms, with nobody in between.</p>
+      <div class="actions">
+        <button class="btn gold" data-enquire>Enquire about Boulders <span class="arrow">→</span></button>
+        <a class="btn ghost" href="#planner">Plan my days first</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <div class="foot-top">
+    <div class="news">
+      <h3>Desert notes,<br>a few times a year.</h3>
+      <form id="news-form"><label class="sr-only" for="news-email">Email address</label><input id="news-email" type="email" required placeholder="Your email address"><button class="btn" type="submit">Sign up</button></form>
+      <div class="msg" id="news-msg" role="status"></div>
+    </div>
+    <div><h4>Boulders</h4><ul><li><a href="#experiences">Experiences</a></li><li><a href="#stay">The stay</a></li><li><a href="#map">The reserve</a></li><li><a href="#regen">Regeneration</a></li></ul></div>
+    <div><h4>Plan</h4><ul><li><a href="#planner">Itinerary planner</a></li><li><a href="#journal">When to visit</a></li><li><a href="#enquire" data-enquire>Enquire direct</a></li></ul></div>
+    <div><h4>Wolwedans collection</h4><ul><li><a href="#home">Boulders Camp</a></li><li><a href="#home">Dune Camp</a></li><li><a href="#home">Desert Lodge</a></li><li><a href="#home">Mountain View Suite</a></li><li><a href="#home">Plains Camp</a></li></ul></div>
+  </div>
+  <div class="foot-bottom"><span>Wolwedans · NamibRand Nature Reserve · Namibia</span><span>Concept prototype for Creo Media assessment · photography © Wolwedans</span></div>
+</footer>
+
+<!-- ENQUIRY MODAL -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+  <div class="scrim" data-close></div>
+  <div class="dialog">
+    <button class="close" aria-label="Close enquiry form" data-close>×</button>
+    <div class="dialog-art"><span class="eyebrow">A note to the camp</span><h2 id="dialog-title">Let's find your desert moment.</h2></div>
+    <div class="dialog-form">
+      <div class="plan-summary" id="plan-summary"></div>
+      <form id="enquiry-form">
+        <div class="fields">
+          <label>Your name<input required name="name" autocomplete="name" placeholder="Name"></label>
+          <label>Email address<input required type="email" name="email" autocomplete="email" placeholder="you@example.com"></label>
+          <label>When are you thinking?<select name="season"><option value="">Choose a season</option><option>September – December</option><option>January – April</option><option>May – August</option><option>I'm flexible</option></select></label>
+          <label>How many guests?<select name="guests"><option>Two guests</option><option>One guest</option><option>Three or four</option><option>Five or more</option></select></label>
+          <label class="wide">What are you dreaming of?<textarea name="message" placeholder="Tell us what draws you to the desert…"></textarea></label>
+        </div>
+        <p class="form-note">This is a prototype, so nothing you type here leaves your browser.</p>
+        <button class="btn" type="submit">Prepare my enquiry <span class="arrow">→</span></button>
+        <div class="success" id="success" role="status"></div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
